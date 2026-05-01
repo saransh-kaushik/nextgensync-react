@@ -5,10 +5,12 @@ import ServicesSection from "@/components/services-section"
 import SafetySection from "@/components/safety-section"
 import PersonalizationSection from "@/components/personalization-section"
 import Footer from "@/components/footer"
+import Preloader from "@/components/preloader"
 
 export default function Home() {
   return (
     <main>
+      <Preloader />
       <Navbar />
       <HeroSection />
       <AIInsightBanner />

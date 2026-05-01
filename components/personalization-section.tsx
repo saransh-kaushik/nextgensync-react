@@ -5,7 +5,7 @@ export default function PersonalizationSection() {
         <div className="order-2 lg:order-1 relative">
           <div className="absolute -left-20 top-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-[var(--secondary-fixed)]/5 rounded-full blur-3xl"></div>
           <div className="relative space-y-6">
-            <div className="bg-white p-6 rounded-2xl shadow-sm border border-[var(--outline-variant)]/30 max-w-sm ml-auto">
+            <div className="bg-white p-6 rounded-2xl shadow-sm border border-[var(--outline-variant)]/30 max-w-sm ml-auto hover:-translate-y-2 hover:shadow-md transition-all duration-300">
               <div className="flex items-center gap-3 mb-4">
                 <div className="w-2 h-2 rounded-full bg-[var(--secondary)] animate-ping"></div>
                 <span className="text-[14px] leading-[1.5] font-semibold">Analyzing Learning Style...</span>
@@ -19,7 +19,7 @@ export default function PersonalizationSection() {
                 </p>
               </div>
             </div>
-            <div className="bg-white p-6 rounded-2xl shadow-md border border-[var(--outline-variant)]/30 max-w-sm relative z-10">
+            <div className="bg-white p-6 rounded-2xl shadow-md border border-[var(--outline-variant)]/30 max-w-sm relative z-10 hover:-translate-y-2 hover:shadow-lg transition-all duration-300">
               <p className="font-[family-name:var(--font-manrope)] text-[18px] font-semibold mb-4">
                 Next Goal: Triangles
               </p>
@@ -45,7 +45,7 @@ export default function PersonalizationSection() {
           </p>
           <div className="space-y-6">
             <div className="flex items-start gap-4">
-              <div className="w-10 h-10 rounded-xl bg-white flex items-center justify-center flex-shrink-0 shadow-sm">
+              <div className="w-10 h-10 rounded-xl bg-white flex items-center justify-center flex-shrink-0 shadow-sm hover:scale-110 hover:shadow-md transition-all duration-300 cursor-pointer">
                 <span className="material-symbols-outlined text-[var(--secondary)]">trending_up</span>
               </div>
               <div>
@@ -58,7 +58,7 @@ export default function PersonalizationSection() {
               </div>
             </div>
             <div className="flex items-start gap-4">
-              <div className="w-10 h-10 rounded-xl bg-white flex items-center justify-center flex-shrink-0 shadow-sm">
+              <div className="w-10 h-10 rounded-xl bg-white flex items-center justify-center flex-shrink-0 shadow-sm hover:scale-110 hover:shadow-md transition-all duration-300 cursor-pointer">
                 <span className="material-symbols-outlined text-[var(--secondary)]">psychology</span>
               </div>
               <div>

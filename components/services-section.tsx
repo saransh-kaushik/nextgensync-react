@@ -14,7 +14,7 @@ export default function ServicesSection() {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {/* AI Chat Apps */}
-          <div className="md:col-span-2 bg-white p-12 rounded-3xl shadow-sm border border-[var(--outline-variant)]/30 flex flex-col justify-between group hover:border-[var(--secondary)] transition-colors">
+          <div className="md:col-span-2 bg-white p-12 rounded-3xl shadow-sm border border-[var(--outline-variant)]/30 flex flex-col justify-between group hover:-translate-y-1 hover:shadow-md hover:border-[var(--secondary)] transition-all duration-300">
             <div>
               <div className="w-14 h-14 bg-[var(--secondary-container)] text-[var(--on-secondary-container)] rounded-2xl flex items-center justify-center mb-6">
                 <span className="material-symbols-outlined text-[32px]">chat_bubble</span>
@@ -44,13 +44,13 @@ export default function ServicesSection() {
                 />
               </div>
               <p className="text-[14px] leading-[1.5] text-[var(--outline)] font-medium">
-                Joined by 12k students today
+                Join our growing network of early adopting schools
               </p>
             </div>
           </div>
 
           {/* Mock Tests */}
-          <div className="bg-[var(--primary-container)] p-12 rounded-3xl text-white flex flex-col">
+          <div className="bg-[var(--primary-container)] p-12 rounded-3xl text-white flex flex-col hover:-translate-y-1 hover:shadow-md transition-all duration-300">
             <div className="w-14 h-14 bg-white/10 rounded-2xl flex items-center justify-center mb-6">
               <span className="material-symbols-outlined text-[var(--secondary-fixed)] text-[32px]">quiz</span>
             </div>
@@ -76,7 +76,7 @@ export default function ServicesSection() {
           </div>
 
           {/* School ERP */}
-          <div className="md:col-span-3 bg-white border border-[var(--outline-variant)]/30 rounded-3xl p-12 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+          <div className="md:col-span-3 bg-white border border-[var(--outline-variant)]/30 rounded-3xl p-12 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center group hover:-translate-y-1 hover:shadow-md hover:border-[var(--secondary)] transition-all duration-300">
             <div>
               <div className="w-14 h-14 bg-[var(--surface-container)] text-[var(--primary)] rounded-2xl flex items-center justify-center mb-6">
                 <span className="material-symbols-outlined text-[32px]">dashboard</span>
@@ -102,7 +102,7 @@ export default function ServicesSection() {
               <Image
                 alt="Data dashboard visualization"
                 className="rounded-xl shadow-lg"
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuD8rt8TtY42T66TEKvrOPerDwp3yL7anwp6tPy4A8OzjXpxAalaVv_mhO2KH_phN8Jdro0B5w3Lnc2I_H8GloZSvlRg3o-th7BCnTr7mW50yEHrp40oQ6v7D356BRHM27FnspJQ5XsrZzQ725VIaXHda9nF05km_yb-zH8HJ1ePNDAfIKBhi_qPiD19sSirRMyXTV9XRrelrKXGiX4Ac0MXjQlV0L3KifIK6623g8nGs9KOgoI0PKyHTp7xmV-2XBgS_M0USdN0NCq1"
+                src="/school-erp-dashboard.png"
                 width={600}
                 height={400}
               />
